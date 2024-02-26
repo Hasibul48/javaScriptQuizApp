@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all .2s ease-out;
+}
+
+
+body {
+    background-color: rgb(196, 236, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appBody {
+    width: 380px;
+    height: 640px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+
+.imgwrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.textWrapper {
+    padding: 8px 14px;
+}
+
+.textWrapper h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btnWrapper button {
+    padding: 12px 22px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(60, 76, 82);
+    color: aliceblue;
+    position: absolute;
+    left: 65%;
+    top: 93%;
+    border-radius: 30px 0px 0px 0px;
+}
+
+.btnWrapper button:hover {
+    background-color: black;
+    color: red;
+}
+
+.rulesOfQuiz li {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.topHeading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59%;
+}
+
+.replayBtn {
+    position: absolute;
+    top: 93%;
+}
+
+.exitQBtn {
+    position: absolute;
+    top: 93%;
+    right: 0%;
+}
+
+.buttons button:first-child {
+    border-radius: 0px 30px 0px 0px;
+}
+
+.buttons button {
+    padding: 12px 22px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(60, 76, 82);
+    color: aliceblue;
+    border-radius: 30px 0px 0px 0px;
+}
+
+.buttons button:hover {
+    background-color: black;
+    color: red;
+}
+
+
+.QuestionHeader {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 23px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+}
+
+.timerCount {
+    font-weight: 600;
+    background-color: black;
+    color: red;
+    padding: 7px 10px;
+    margin-top: -5px;
+    border-radius: 14px;
+    margin-left: 30px;
+}
+
+.Qbody {
+    padding: 0px 29px;
+}
+
+.Qbody h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.optionWrapper li {
+    margin-top: 20px;
+    background-color: rgba(150, 215, 233, 0.425);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.optionWrapper li:hover {
+    background-color: rgb(248, 223, 140);
+}
+
+.optionWrapper li span i {
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+.qn {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qn button {
+    padding: 12px 22px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(60, 76, 82);
+    color: aliceblue;
+    border-radius: 30px 0px 0px 0px;
+    position: absolute;
+    left: 56.5%;
+    top: 93%;
+    display: none;
+}
+
+.qn button:hover {
+    background-color: black;
+    color: red;
+}
+
+.qn p {
+    position: absolute;
+    top: 94%;
+}
+
+.options.currect {
+    background-color: rgba(130, 253, 212, 0.61);
+    /* border: 2px solid green; */
+}
+
+.options.incurrect {
+    background-color: rgba(255, 135, 135, 0.562);
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+}
+
+.options.disabled {
+    pointer-events: none;
+}
+
+.scoreArea {
+    line-height: 40px;
+    padding: 0px 15px;
+}
+
+.scoreArea p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#developerContact {
+    text-align: center;
+    color: rgb(21, 59, 59);
+}
+
+#Dspan {
+    position: absolute;
+    left: 12%;
+    font-size: 20px;
+}
+
+#Dspan a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 255, 136);
+}
+
+@media screen and(max-width: 480px) {
+    .appBody {
+        width: 100%;
+    }
+}
+
+/* MADE BY HASIBUL ISLAM */

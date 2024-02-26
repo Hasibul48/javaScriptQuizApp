@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.3">
+    <title>Granny Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
+        integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="appBody" style="display: block; z-index: 5;">
+        <div class="imgwrapper">
+            <img src="img/download.jfif" alt="image">
+        </div>
+        <div class="textWrapper">
+            <h2>Wlcome to Granny Quiz</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga debitis repellat nisi, tempora eum
+                obcaecati magnam reprehenderit perferendis nesciunt sequi esse, impedit odio aperiam tenetur
+                praesentium, quas possimus nam iure!
+            </p>
+            <h2>Answar Quesrions In Time</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae labore iste.</p>
+        </div>
+        <div class="btnWrapper">
+            <button>Start Quiz</button>
+        </div>
+    </div>
+
+    <div class="appBody page2" style="display: none; z-index: 10;">
+        <div class="topHeading">
+            <h2>Rules of this Quiz</h2>
+        </div>
+        <ol class="rulesOfQuiz">
+            <li>You will have only 30 seconds for answaring a question</li>
+            <li>Once you select answar you can't undone</li>
+            <li>You can't select option when time goes off</li>
+            <li>You can't exit when you're playing</li>
+            <li>You willl get points if the answar is right</li>
+        </ol>
+        <div class="buttons">
+            <button class="p3Btn1">Exit Quiz</button>
+            <button class="p3Btn2">Start Quiz</button>
+        </div>
+    </div>
+
+    <div class="appBody page3" style="display: none; z-index: 15;">
+        <div class="QuestionHeader">
+            <div class="Qleft">
+                <h3>Start Exam</h3>
+            </div>
+            <div class="Qright">
+                <div class="timerCount">
+                    <span>Time Remaining : <span id="crrTime">00</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="Qbody">
+            <h3 class="crrQuestion">
+                <!-- 1. What is the main objective of the "Granny" game? -->
+            </h3>
+
+            <div class="optionWrapper">
+                <!-- <li>
+                    <span>Cook a delicious meal</span><span><i class="fa fa-times" aria-hidden="true"></i></span>
+                </li>
+                <li>
+                    <span>Escape from Granny's house</span><span><i class="fa fa-times" aria-hidden="true"></i></span>
+                </li>
+                <li>
+                    <span>Solve puzzles to rescue a pet</span><span><i class="fa fa-times"
+                            aria-hidden="true"></i></span>
+                </li>
+                <li>
+                    <span>Decorate Granny's house</span><span><i class="fa fa-check" aria-hidden="true"></i></span>
+                </li> -->
+            </div>
+
+            <footer class="qn">
+                <p class="qnP">1 of 10 Questions</p>
+                <button class="qnB">
+                    Next Question
+                </button>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <div class="appBody page4" style="display: none; z-index: 20;">
+        <div class="imgwrapper">
+            <img src="img/download (1).jfif" alt="image">
+        </div>
+        <div class="textWrapper">
+            <div class="scoreArea"></div>
+            <!-- <p>Currect Answar(s) : 2</p>
+            <p>Wrong Answar(s) : 2</p>
+            <p>Missed : 2</p>
+            <p>Total mark(s): 2 Out Of 10</p> -->
+
+            <h2 id="developerContact">Developer Contact</h2>
+            <span id="Dspan">This app made by <a href="https://www.linkedin.com/in/hm-hasibul-islam">Hasibul
+                    Islam</a></span>
+
+        </div>
+
+        <div class="buttons lPage">
+            <button class="replayBtn">Replay Quiz</button>
+            <button class="exitQBtn">Exit Quiz</button>
+        </div>
+
+
+    </div>
+    <!-- <div class="tikIcon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+    <div class="crossIcon"><i class="fa fa-times" aria-hidden="true"></i></div> -->
+
+
+    <script src="js/script.js"></script>
+    <script src="js/Data.js"></script>
+</body>
+
+</html>
+
+
+<!-- MADE BY HASIBUL ISLAM -->
