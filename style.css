@@ -229,10 +229,5 @@ body {
     color: rgb(0, 255, 136);
 }
 
-@media screen and(max-width: 480px) {
-    .appBody {
-        width: 100%;
-    }
-}
 
 /* MADE BY HASIBUL ISLAM */

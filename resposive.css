@@ -1,0 +1,16 @@
+@media screen and (max-width : 620px) {
+    .appBody {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .btnWrapper button {
+        right: 0%;
+        bottom: 0%;
+
+    }
+
+    .buttons button {
+        margin-top: 11%;
+    }
+}
