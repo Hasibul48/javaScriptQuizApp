@@ -10,7 +10,21 @@
 
     }
 
-    .buttons button {
-        margin-top: 11%;
+    .buttons {
+        margin-top: 65%;
+    }
+
+    .qnB {
+        margin-left: 13%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .buttons {
+        margin-top: 75%;
+    }
+
+    .qnB {
+        margin-left: 10%;
     }
 }
