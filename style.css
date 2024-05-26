@@ -212,22 +212,16 @@ body {
     font-weight: 600;
 }
 
-#developerContact {
+.devloperContact {
+    margin-top: 12%;
+    width: 100%;
     text-align: center;
-    color: rgb(21, 59, 59);
 }
 
-#Dspan {
-    position: absolute;
-    left: 12%;
-    font-size: 20px;
-}
-
-#Dspan a {
+.devloperContact a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(0, 255, 136);
 }
-
 
 /* MADE BY HASIBUL ISLAM */

@@ -1,0 +1,54 @@
+@media screen and (max-width:768px) {
+    .appBody {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0%;
+    }
+
+    .btnWrapper button {
+        position: absolute;
+        left: auto;
+        right: 0%;
+        bottom: 0%;
+        top: auto;
+    }
+
+    .p3Btn1 {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
+
+    .p3Btn2 {
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+    }
+
+    .replayBtn {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        top: auto;
+    }
+
+    .exitQBtn {
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+        top: auto;
+    }
+
+    .qnB {
+        position: absolute;
+        bottom: 0%;
+        top: auto;
+        right: 0%;
+
+    }
+
+    .devloperContact {
+        margin-top: 0%;
+    }
+
+}
