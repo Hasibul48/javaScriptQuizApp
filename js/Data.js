@@ -1,115 +1,113 @@
 let questions = [
     {
         number: 1,
-        question: 'What is the main objective of the "Granny" game?',
-        answar: "Escape from Granny's house",
+        question: 'What does HTML stand for?',
+        answer: "HyperText Markup Language",
         options: [
-            "Cook a delicious meal",
-            "Escape from Granny's house",
-            "Solve puzzles to rescue a pet",
-            "Decorate Granny's house"
+            "HyperText Markup Language",
+            "Hyperlinks and Text Markup Language",
+            "Home Tool Markup Language",
+            "HyperTool Markup Language"
         ]
     },
 
     {
         number: 2,
-        question: 'How many days do you typically have to survive in the game?',
-        answar: "5 days",
+        question: 'Which programming language is primarily used for web development?',
+        answer: "JavaScript",
         options: [
-            "1 day",
-            "5 days",
-            "7 days",
-            "10 days"
+            "Python",
+            "Java",
+            "C++",
+            "JavaScript"
         ]
     },
     {
         number: 3,
-        question: 'What are some common items you can use to defend yourself in "Granny"?',
-        answar: "A tranquilizer dart and a hammer",
+        question: 'What does CSS stand for?',
+        answer: "Cascading Style Sheets",
         options: [
-            "A crossbow and a slingshot",
-            "A shotgun and a chainsaw",
-            " A tennis racket and a baseball bat",
-            "A tranquilizer dart and a hammer"
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets"
         ]
     },
     {
         number: 4,
-        question: 'Who is the main antagonist in the game "Granny"?',
-        answar: "Granny",
+        question: 'Which of the following is a version control system?',
+        answer: "Git",
         options: [
-            " A ghost",
-            "Granny",
-            " Grandpa",
-            "The Neighbor"
+            "Docker",
+            "Git",
+            "Jenkins",
+            "Kubernetes"
         ]
     },
     {
         number: 5,
-        question: 'What happens if Granny catches the player in the game?',
-        answar: "You lose a day",
+        question: 'Which of the following is not a programming language?',
+        answer: "HTML",
         options: [
-            "You get a new item",
-            "Granny bakes you cookies",
-            "You lose a day",
-            "You win the game"
+            "Python",
+            "Ruby",
+            "HTML",
+            "Java"
         ]
     },
     {
         number: 6,
-        question: "How can you escape Granny's house in the game?",
-        answar: "Repair the car",
+        question: 'What is the purpose of a function in programming?',
+        answer: "To perform a specific task",
         options: [
-            "Find a hidden key",
-            "Repair the car",
-            "Unlock the plane",
-            "Wait for Granny to fall a sleep"
+            "To store data",
+            "To perform a specific task",
+            "To style web pages",
+            "To connect to a database"
         ]
     },
     {
         number: 7,
-        question: 'What is the significance of the teddy bear in "Granny"?',
-        answar: "It helps distract Granny",
+        question: 'Which of the following is a front-end JavaScript framework?',
+        answer: "React",
         options: [
-            "It's a weapon to fight Granny",
-            "It's a collectible item",
-            "It helps distract Granny",
-            "It has a secret code hidden inside"
+            "Django",
+            "Node.js",
+            "React",
+            "Flask"
         ]
     },
     {
         number: 8,
-        question: 'Which difficulty level is the most challenging in "Granny"?',
-        answar: "Nightmare",
+        question: 'What is a loop used for in programming?',
+        answer: "To repeat a block of code",
         options: [
-            "Easy",
-            "Normal",
-            "Nightmare",
-            "Hard"
+            "To call a function",
+            "To handle exceptions",
+            "To define variables",
+            "To repeat a block of code"
         ]
     },
     {
         number: 9,
-        question: 'What is the name of the main character you control in "Granny"?',
-        answar: "The Player",
+        question: 'Which company developed the Java programming language?',
+        answer: "Sun Microsystems",
         options: [
-            "Jack",
-            "Granny",
-            "Sarah",
-            "The Player"
+            "Microsoft",
+            "Apple",
+            "Sun Microsystems",
+            "Google"
         ]
     },
     {
         number: 10,
-        question: 'What is the primary tool used for unlocking doors in the "Granny" game?',
-        answar: "A lockpick",
+        question: 'What does SQL stand for?',
+        answer: "Structured Query Language",
         options: [
-            "A crowbar",
-            "A master key",
-            "A screwdriver",
-            "A lockpick"
+            "Structured Query Language",
+            "Simple Query Language",
+            "Sequential Query Language",
+            "Standard Query Language"
         ]
     }
-
 ];
-// MADE BY HASIBUL ISLAM
