@@ -119,13 +119,13 @@ body {
 }
 
 .timerCount {
-    font-weight: 600;
+    font-weight: 400;
     background-color: black;
     color: red;
-    padding: 7px 10px;
-    margin-top: -5px;
+    font-size: 16px;
     border-radius: 14px;
-    margin-left: 30px;
+    padding: 4px 5px;
+    margin-top: -2px;
 }
 
 .Qbody {

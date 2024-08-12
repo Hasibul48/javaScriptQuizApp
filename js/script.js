@@ -59,27 +59,27 @@ let WrongPoints = 0;
 let scoreArea = document.querySelector(".scoreArea");
 const tikIcon = `<div class="tikIcon"><i class="fa fa-check" aria-hidden="true"></i></div>`, crossIcon = `<div class="crossIcon"><i class="fa fa-times" aria-hidden="true"></i></div>`;
 
-function optionSelected(answar) {
-    let userAnswar = answar.textContent;
-    let rightAnswar = questions[queCount].answar;
+function optionSelected(answer) {
+    let userAnswer = answer.textContent;
+    let rightAnswer = questions[queCount].answer;
     let alloptions = optionsM.children.length;
     clearInterval(counter);
 
-    if (userAnswar === rightAnswar) {
-        answar.classList.add("currect");
+    if (userAnswer === rightAnswer) {
+        answer.classList.add("currect");
         // console.log("currect");
-        answar.insertAdjacentHTML("beforeend", tikIcon);
+        answer.insertAdjacentHTML("beforeend", tikIcon);
         points += 1;
         console.log(points);
         if (points === 0) {
             points = 0;
         }
     } else {
-        answar.classList.add("incurrect");
+        answer.classList.add("incurrect");
         // console.log("Incurrect");
-        answar.insertAdjacentHTML("beforeend", crossIcon)
+        answer.insertAdjacentHTML("beforeend", crossIcon)
         for (i = 0; i < alloptions; i++) {
-            if (optionsM.children[i].textContent === rightAnswar) {
+            if (optionsM.children[i].textContent === rightAnswer) {
                 optionsM.children[i].classList.add("options");
                 optionsM.children[i].classList.add("currect");
                 optionsM.children[i].insertAdjacentHTML("beforeend", tikIcon);
@@ -102,7 +102,7 @@ function optionSelected(answar) {
 function setTimer(time) {
     counter = setInterval(timerCount, 1000);
     let alloptions = optionsM.children.length;
-    let rightAnswar = questions[queCount].answar;
+    let rightAnswer = questions[queCount].answer;
     function timerCount() {
         crrentTime.textContent = time;
 
@@ -122,7 +122,7 @@ function setTimer(time) {
             nextBtn.style.display = "block";
 
             for (i = 0; i < alloptions; i++) {
-                if (optionsM.children[i].textContent === rightAnswar) {
+                if (optionsM.children[i].textContent === rightAnswer) {
                     optionsM.children[i].classList.add("options");
                     optionsM.children[i].classList.add("currect");
                     optionsM.children[i].insertAdjacentHTML("beforeend", tikIcon);
@@ -134,7 +134,7 @@ function setTimer(time) {
 }
 
 function dynamicResult(points, WrongPoints) {
-    scoreArea.innerHTML = `<h1 style= "margin-bottom: 20px; text-align: center">Your Score</h1><p>Currect Answar(s) : ${points}</p><p>Wrong Answar(s) : ${WrongPoints}</p><p>Missed: ${questions.length - (points + WrongPoints)}</p><p>Total mark(s): ${points} Out Of ${questions.length}</p>`
+    scoreArea.innerHTML = `<h1 style= "margin-bottom: 20px; text-align: center">Your Score</h1><p>Currect Answer(s) : ${points}</p><p>Wrong Answer(s) : ${WrongPoints}</p><p>Missed: ${questions.length - (points + WrongPoints)}</p><p>Total mark(s): ${points} Out Of ${questions.length}</p>`
 }
 
 document.querySelector(".exitQBtn").addEventListener("click", function () {
